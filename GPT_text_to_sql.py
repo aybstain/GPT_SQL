@@ -16,7 +16,7 @@ def text_to_sql(table_name,text,column_names):
     #generate_questions_with_answers from chatgpt API
     instruction1 = "turn this phrase into a sql query: "
     instruction2 = f"the table name is'{table_name}', the columns names are '{column_names}'"
-    openai.api_key = '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'
+    openai.api_key = 'Your_key'
     # Define the instruction and prompt for the model
     prompt = f"{instruction1}{text}{instruction2}"
 
