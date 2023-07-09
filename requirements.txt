@@ -1,0 +1,6 @@
+speechrecognition==3.8.1
+pydub==0.25.1
+google-auth==1.35.0
+google-auth-oauthlib==0.4.6
+google-api-python-client==2.13.0
+openai==0.27.0
